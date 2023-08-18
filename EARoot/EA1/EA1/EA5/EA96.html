@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Cross-theme Relationships with Organization</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA97.png" usemap="#EA97" border="0" />
+
+<MAP NAME="EA97">
+<area shape="rect" coords="649,809,800,894" href="../EA6/EA115.html" target="_self">
+<area shape="rect" coords="985,748,1195,950" href="EA101.html" target="_self">
+<area shape="rect" coords="1094,292,1306,403" href="../EA1/EA22.html" target="_self">
+<area shape="rect" coords="1307,559,1488,670" href="../EA1/EA21.html" target="_self">
+<area shape="rect" coords="386,347,592,432" href="../EA2/EA42.html" target="_self">
+<area shape="rect" coords="204,10,403,176" href="../EA3/EA66.html" target="_self">
+<area shape="rect" coords="738,505,944,655" href="../EA4/EA83.html" target="_self">
+<area shape="rect" coords="1020,118,1271,255" href="../EA2/EA44.html" target="_self">
+<area shape="rect" coords="982,563,1194,661" href="EA99.html" target="_self">
+<area shape="rect" coords="423,688,630,786" href="../EA2/EA35.html" target="_self">
+<area shape="rect" coords="582,39,814,306" href="../EA2/EA41.html" target="_self">
+<area shape="rect" coords="371,485,586,596" href="EA100.html" target="_self">
+<area shape="rect" coords="10,223,246,659" href="EA98.html" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Cross-theme Relationships with Organization : Clase diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">20/11/2017 02:41:17 p.m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">11/12/2017 08:00:53 a.m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">La IDE de Bogotá</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{35D83D07-9A29-42cd-87F5-EF98D5806E2B}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

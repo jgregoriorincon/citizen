@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1.1.6:1", "", "Temporality Variable", "EARoot/EA1/EA1/EA6/EA109.html", "175.png", "28", "0", "", "Logical diagram0","{8594B20B-C6B2-49fa-9F5C-053116B3C439}");
+tocTab[tocTab.length] = new Array("0.1.1.6:2", "", "Codelists Temporality", "EARoot/EA1/EA1/EA6/EA111.html", "175.png", "40", "0", "", "Logical diagram0","{2923D35E-196A-4290-970F-C1F63F57FDCD}");
+tocTab[tocTab.length] = new Array("0.1.1.6:3", "", "Cross-theme Relationships withTemporality", "EARoot/EA1/EA1/EA6/EA113.html", "175.png", "44", "0", "", "Logical diagram0","{76D78D9E-A56E-47fc-9263-4233ED7A7ADA}");
+tocTab[tocTab.length] = new Array("0.1.1.6:4", "", "TEM_Date", "EARoot/EA1/EA1/EA6/EA115.html", "5.png", "126", "0", "", "Class0","{96C6E779-DEBA-4c51-8DA4-7A82682955EA}");
+tocTab[tocTab.length] = new Array("0.1.1.6:5", "", "«CodeList» dateTypeCode", "EARoot/EA1/EA1/EA6/EA116.html", "5.png", "356", "0", "", "Class0","{C2C9ABFC-969F-4149-B4FF-F67D4D305E1B}");
+tocTab[tocTab.length] = new Array("0.1.1.6:6", "", "«dataType» DateTime", "EARoot/EA1/EA1/EA6/EA117.html", "230.png", "357", "0", "", "DataType0","{EBD3D04F-3A36-4197-9080-1C6E82676444}");
+tocTab[tocTab.length] = new Array("0.1.1.6:7", "", "«dataType» Double", "EARoot/EA1/EA1/EA6/EA118.html", "230.png", "358", "0", "", "DataType0","{96299CE8-8213-4375-8C64-78F1515CEB43}");

@@ -1,0 +1,14 @@
+tocTab[tocTab.length] = new Array("0.1.1.5:1", "", "Organization Variable", "EARoot/EA1/EA1/EA5/EA92.html", "175.png", "29", "0", "", "Logical diagram0","{C6797257-6C4A-4889-A8EB-62B48C5B32A0}");
+tocTab[tocTab.length] = new Array("0.1.1.5:2", "", "Codelists Organization", "EARoot/EA1/EA1/EA5/EA94.html", "175.png", "38", "0", "", "Logical diagram0","{3E1280ED-5827-462d-8505-98D75840AA2F}");
+tocTab[tocTab.length] = new Array("0.1.1.5:3", "", "Cross-theme Relationships with Organization", "EARoot/EA1/EA1/EA5/EA96.html", "175.png", "43", "0", "", "Logical diagram0","{35D83D07-9A29-42cd-87F5-EF98D5806E2B}");
+tocTab[tocTab.length] = new Array("0.1.1.5:4", "", "ORG_Colegios", "EARoot/EA1/EA1/EA5/EA98.html", "5.png", "177", "0", "", "Class0","{03D5814B-37D7-4569-90E4-9133D23CAA3C}");
+tocTab[tocTab.length] = new Array("0.1.1.5:5", "", "ORG_Entidades", "EARoot/EA1/EA1/EA5/EA99.html", "5.png", "155", "0", "", "Class0","{8F8FB88E-432B-46e0-96CF-073F9159E396}");
+tocTab[tocTab.length] = new Array("0.1.1.5:6", "", "ORG_InsitucióndeEducaciónSuperior", "EARoot/EA1/EA1/EA5/EA100.html", "5.png", "143", "0", "", "Class0","{C2BA2B18-EA0C-4883-B8A5-EAEAD5E37B4C}");
+tocTab[tocTab.length] = new Array("0.1.1.5:7", "", "ORG_Project", "EARoot/EA1/EA1/EA5/EA101.html", "5.png", "156", "0", "", "Class0","{0529EA1C-868D-405e-A94B-97E5DC50AC33}");
+tocTab[tocTab.length] = new Array("0.1.1.5:8", "", "«CodeList» administrationTypeCode", "EARoot/EA1/EA1/EA5/EA102.html", "5.png", "340", "0", "", "Class0","{DEAEF6C3-18F3-453d-A9F3-A5B34CD36A94}");
+tocTab[tocTab.length] = new Array("0.1.1.5:9", "", "«CodeList» characterTypeCode", "EARoot/EA1/EA1/EA5/EA103.html", "5.png", "343", "0", "", "Class0","{066448A4-0E49-4cc1-B191-0DBB2059E928}");
+tocTab[tocTab.length] = new Array("0.1.1.5:10", "", "«CodeList» genderSchoolTypeCode", "EARoot/EA1/EA1/EA5/EA104.html", "5.png", "342", "0", "", "Class0","{02B9811B-ED7F-4a47-A7F3-07CC8FC349E2}");
+tocTab[tocTab.length] = new Array("0.1.1.5:11", "", "«CodeList» headquartersTypeCode", "EARoot/EA1/EA1/EA5/EA105.html", "5.png", "344", "0", "", "Class0","{DAC2BA8C-C7AA-46ad-8F01-239EF3FEC052}");
+tocTab[tocTab.length] = new Array("0.1.1.5:12", "", "«CodeList» orderTypeCode", "EARoot/EA1/EA1/EA5/EA106.html", "5.png", "345", "0", "", "Class0","{7AA22340-3487-4fab-A2C9-9D640F675F9D}");
+tocTab[tocTab.length] = new Array("0.1.1.5:13", "", "«CodeList» regimeTypeCode", "EARoot/EA1/EA1/EA5/EA107.html", "5.png", "346", "0", "", "Class0","{80D4444D-9BD5-4a0b-A772-0451493F0414}");
+tocTab[tocTab.length] = new Array("0.1.1.5:14", "", "«CodeList» sectorTypeCode", "EARoot/EA1/EA1/EA5/EA108.html", "5.png", "339", "0", "", "Class0","{1FC4DF91-6FF0-4ed3-AB6C-E41567E9D143}");

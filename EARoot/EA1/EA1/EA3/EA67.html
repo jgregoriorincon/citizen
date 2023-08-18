@@ -1,0 +1,601 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>GEO_Predio</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("GEO_Predio", " : "))</script> Predio : Public   Clase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">15/11/2017 05:58:26 p.m.</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">17/01/2018 09:39:56 a.m.</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">La IDE de Bogotá</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Fácil</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{BBC8BF73-6416-4e78-A44A-3D2DC8F491CF}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA58.html">Geographic Variable</a>, <a href="../EA1/EA18.html">Cross-theme Relationships with Behavior</a>, <a href="EA62.html">Cross-theme Relationships with Geographic</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">-- Definición --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Es un inmueble no separado por otro predio público o privado, con o sin construcciones y/o edificaciones, perteneciente a personas naturales o jurídicas. El predio mantiene su unidad aunque esté atravesado por corrientes de agua pública.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Parágrafo:&lt;/b&gt; Se incluyen en esta definición los baldíos, los ejidos, los vacantes, los resguardos indígenas, las reservas naturales, las tierras de las comunidades negras, la propiedad horizontal, los condominios (unidades inmobiliarias cerradas), las multipropiedades, las parcelaciones, los parques cementerios, los bienes de uso público y todos aquellos otros que se encuentren individualizados con una matrícula inmobiliaria, así como las mejoras por edificaciones en terreno ajeno.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;-- Fuente --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Instituto Geográfico Agustín Codazzi.. Artículo 9 de la Resolución 070 de 2011. &lt;br /&gt;&lt;/p&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Atributos</li>
+			<li onClick="parent.toggleItem('AssociationsDesde');" id="AssociationsDesdeTitle">Asociaciones Desde</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Otros vínculos</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Attribute</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public String</i><br /><strong>&nbsp;&nbsp;CHIP</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1655')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1655" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes1655_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td>Código Homologado de Identificación Predial</td>
+						</tr>
+						<tr id="DetailsImageAttributes1655_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1655_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1655_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1655_03" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td>Range:0 to 1</td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notas: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			-- Definición --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Código homologado de identificación predial que asigna la Unidad Administrativa Especial de Catastro a cada predio del Distrito Capital.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;-- Descripción --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Dentro de la Base de Datos de Ciudadanos de Bogotá, corresponde al principal identificador para ubicar la posición de la ubicación de la persona o de sus bienes.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;-- Fuente --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Tomado de: https://www.catastrobogota.gov.co/es/node/137&lt;br /&gt;&lt;/p&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public String</i><br /><strong>&nbsp;&nbsp;matriculaInmobiliaria</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1656')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1656" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes1656_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td>Matrícula Inmobiliaria</td>
+						</tr>
+						<tr id="DetailsImageAttributes1656_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1656_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1656_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1656_03" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notas: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			-- Definición --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Es un folio destinado a la inscripción de los actos, contratos y providencias relacionados en el artículo 4o, referente a un bien raíz, el cual se distinguirá con un código alfanumérico o complejo numeral indicativo del orden interno de cada oficina y de la sucesión en que se vaya sentando.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Además, señalará, con cifras distintivas, la oficina de registro, el departamento y el municipio, corregimiento o vereda de la ubicación del bien inmueble y el número único de identificación predial en los municipios que lo tengan o la cédula catastral en aquellos municipios donde no se haya implementado ese identificador.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Indicará también, si el inmueble es urbano o rural, designándolo por su número, nombre o dirección, respectivamente y describiéndolo por sus linderos, perímetro, cabida, datos del acto administrativo y plano donde estén contenidos los linderos, su actualización o modificación y demás elementos de identificación que puedan obtenerse.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;En la matrícula inmobiliaria constará la naturaleza jurídica de cada uno de los actos sometidos a registro, así: tradición, gravámenes, limitaciones y afectaciones, medidas cautelares, tenencia, falsa tradición, cancelaciones y otros.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;-- Fuete --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;-- Fuente --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Artículo 8 de la Ley 1579 de 2012. Estatuto de registro de instrumentos públicos. &lt;br /&gt;&lt;/p&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public String</i><br /><strong>&nbsp;&nbsp;numeroInstrumento</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1657')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1657" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes1657_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td>Número de Instrumento </td>
+						</tr>
+						<tr id="DetailsImageAttributes1657_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1657_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1657_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1657_03" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td>Range:0 to 1</td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notas: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			-- Definición --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Corresponde la número de instrumento que identifica la última transferencia del predio.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Entiéndase instrumento como escritura, certificado, documento, oficio, resolución, sentencia, sucesión, auto, acta, corrección, participación, juicio de pertenencia, separación de bienes, remate, acto administrativo, despacho telegráfico fallo, y todos los demás especificados por la Superintendencia de Notariado y Registro.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;--Ejemplo--&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Si el predio fue transado en una compra venta, entonces:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;numeroEscritura = 326&#160; (corresponde al número de la escritura)&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Si el predio fue entregado mediante Resolución Administrativa, entonces:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;numeroEscritura = 130 (corresponde al número de la resolución)&lt;br /&gt;&lt;/p&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public String</i><br /><strong>&nbsp;&nbsp;oficinaInstrumento</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1658')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1658" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes1658_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td>Oficina del Instrumento</td>
+						</tr>
+						<tr id="DetailsImageAttributes1658_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1658_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1658_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1658_03" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td>Range:0 to 1</td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notas: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			--Definición--&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Número y lugar de la Oficina en donde se efectuó, o que autorizó la transacción inmobiliaria.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Entiéndase lugar como notaría, juzgado, entidad, y todos los demás establecidos por Ley para realizar transacciones inmobiliarias.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;--Ejemplo--&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Si el predio fue adjudicado por la Caja de Vivienda popular, entonces:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;oficinaInstrumento = Caja de la Vivienda Popular&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Si el predio fue transado por compra y venta, entonces:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;oficina Instrumento = Notaría 7 de Bogotá&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Si el predio fue adjudicado por sentencia, entonces: &lt;br /&gt;&lt;/p&gt;&lt;p&gt;Juzgado 73 civil municipal de Bogotá &lt;br /&gt;&lt;/p&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public <a href="EA72.html">propertyTypeCode</a></i><br /><strong>&nbsp;&nbsp;tipodePropiedad</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1659')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1659" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes1659_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td>Tipo de propiedad</td>
+						</tr>
+						<tr id="DetailsImageAttributes1659_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1659_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1659_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1659_03" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td>Range:0 to 1</td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notas: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			-- Definición --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Corresponde al tipo de propiedad del predio que se registra, y es asignado por la Unidad Administrativa Especial de Catastro Distrital - UAECD.&lt;br /&gt;&lt;/p&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public <a href="EA76.html">zoneTypeCode</a></i><br /><strong>&nbsp;&nbsp;zonaPredio</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1660')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1660" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes1660_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td>Zona en que se encuentra el predio</td>
+						</tr>
+						<tr id="DetailsImageAttributes1660_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1660_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1660_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1660_03" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td>Range:0 to 1</td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notas: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			--Definición--&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Zona en que se encuentra el predio (Urbana, Rural, Expansión Urbana)&lt;br /&gt;&lt;/p&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public String</i><br /><strong>&nbsp;&nbsp;estrato</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1661')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1661" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes1661_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td>Estrato del predio</td>
+						</tr>
+						<tr id="DetailsImageAttributes1661_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1661_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1661_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1661_03" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td>Range:0 to 1</td>
+						</tr>
+					</table>
+					
+					
+						&nbsp;
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public <a href="../EA6/EA115.html">TEM_Date</a></i><br /><strong>&nbsp;&nbsp;Date</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1662')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1662" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes1662_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td>Fecha </td>
+						</tr>
+						<tr id="DetailsImageAttributes1662_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1662_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1662_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1662_03" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notas: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			--Descripción--&lt;br /&gt;&lt;/p&gt;&lt;p&gt;La fecha se asocia al predio como fecha de escrituración.&lt;br /&gt;&lt;/p&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>
+	</table>
+</div>
+		<div class="ItemBody" id="AssociationsDesdeTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA69.html">«FeatureType» GEO_SpatialUnitGroup</a><br />
+						Clase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1663" onclick="parent.toggleDiv('detailsDIVLink1663','DetailsImageLink1663')" />Details:
+							<div id="detailsDIVLink1663" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">-- Relaciones --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- Un predio está en un Grupo de Unidad Espacial.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- Un grupo de unidad espacial puede o no, contener un predio.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA1/EA20.html">BEH_Asset</a><br />
+						Clase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1664" onclick="parent.toggleDiv('detailsDIVLink1664','DetailsImageLink1664')" />Details:
+							<div id="detailsDIVLink1664" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">-- Relaciones --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Un bien puede o no, constituirse en un predio.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA66.html">«FeatureType» GEO_Location</a><br />
+						Clase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1665" onclick="parent.toggleDiv('detailsDIVLink1665','DetailsImageLink1665')" />Details:
+							<div id="detailsDIVLink1665" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">-- Relaciones --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Un predio tiene una o muchas ubicaciones&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA68.html">«FeatureType» GEO_SpatialUnit</a><br />
+						Clase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1666" onclick="parent.toggleDiv('detailsDIVLink1666','DetailsImageLink1666')" />Details:
+							<div id="detailsDIVLink1666" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">-- Relaciones --&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- Un predio puede o no, corresponder a una&#160; o muchas unidades espaciales.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- Una unidad espacial puede o no, corresponder a uno o muchos predios.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA66.html">«FeatureType» GEO_Location</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Weak</td>
+					<td width="10%" class="TableRow" valign="top">Desde</td>
+					<td width="40%" class="TableRow" valign="top">-- Relaciones --
+Un predio tiene una o muchas ubicaciones</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>
